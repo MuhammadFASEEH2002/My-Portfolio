@@ -225,182 +225,6 @@ body {
 .social-details a img{
     width: 40px;
 }
-
-@media screen and (max-width: 468px) {
-    .navigation {
-        flex-direction: column;
-        height: 15vh;
-    }
-
-    .name {
-        justify-content: center;
-        width: 100%;
-        height: 50%;
-        margin-bottom: 1%;
-        margin-top: 1%;
-        border-bottom: 0.5px solid black;
-    }
-
-    .name h1 {
-        font-size: 1.7em;
-        font-weight: 600;
-    }
-
-    .nav-options {
-        width: 100%;
-    }
-
-    .nav-options ul {
-        justify-content: center;
-    }
-
-    .nav-options ul li {
-        padding: none;
-    }
-
-    .nav-options ul li a {
-
-        font-size: 1.3em;
-    }
-
-    .home-container {
-        height: 50vh;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: #333335;
-    }
-
-    .home-container img {
-        margin: 2%;
-        border-radius: 20%;
-        width: 150px;
-    }
-
-    .home-container h1 {
-        font-size: 1.8em;
-        text-align: center;
-
-    }
-
-    .home-container h3 {
-
-        color: dodgerblue;
-        font-size: 1em;
-        text-align: center;
-    }
-
-    .about {
-        height: 80vh;
-        flex-direction: column;
-        width: 100%;
-        padding-left: none;
-    }
-
-    .introduction {
-        justify-content: center;
-        width: 100%;
-        padding: 2%;
-    }
-
-    .introduction h1 {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 2%;
-        font-size: 1.8em;
-    }
-
-    .introduction p {
-        font-size: 1.5em;
-        text-align: center;
-    }
-
-    .projects {
-        align-items: center;
-        width: 100%;
-    }
-
-    .projects ul {
-        width: 70%;
-    }
-
-    .skills-container {
-        height: 40vh;
-    }
-
-    .programming-skills,
-    .tools {
-        width: 90%;
-    }
-
-    .programming-skills h2,
-    .tools h2 {
-        font-size: 1em;
-    }
-
-    .programming-skills i {
-        font-size: 2em;
-    }
-
-    .tools img {
-        width: 35px;
-    }
-
-
-    .contact-section {
-        display: flex;
-        flex-direction: column;
-        height: 30vh;
-        width: 100%;
-        background-color: dodgerblue;
-        color: whitesmoke;
-    }
-
-    .contact-details {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 1%;
-        padding-left: 2%;
-        width: 100%;
-    }
-
-    .contact-details div {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 1%;
-        width: 100%;
-    }
-
-    .contact-details div h4 {
-        font-weight: 500;
-    }
-
-    .contact-details div h5 {
-        font-weight: 400;
-    }
-
-    .social-details {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .social-details a {
-        margin: 5%;
-    }
-    .social-details a img{
-        width: 30px;
-    }
-
-
-
-}
 @media screen and (max-width: 768px) {
     .navigation {
         flex-direction: column;
@@ -571,6 +395,181 @@ body {
     }
     .social-details a img{
         width: 30px;
+    }
+
+
+
+}
+@media screen and (max-width: 468px) {
+    .navigation {
+        flex-direction: column;
+        height: 15vh;
+    }
+
+    .name {
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border-bottom: 0.5px solid black;
+    }
+
+    .name h1 {
+        font-size: 1.7em;
+        font-weight: 600;
+    }
+
+    .nav-options {
+        width: 100%;
+    }
+
+    .nav-options ul {
+        justify-content: center;
+    }
+
+    .nav-options ul li {
+        padding: none;
+    }
+
+    .nav-options ul li a {
+
+        font-size: 1.3em;
+    }
+
+    .home-container {
+        height: 50vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #333335;
+    }
+
+    .home-container img {
+        margin: 2%;
+        border-radius: 20%;
+        width: 150px;
+    }
+
+    .home-container h1 {
+        font-size: 1.8em;
+        text-align: center;
+
+    }
+
+    .home-container h3 {
+
+        color: dodgerblue;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .about {
+        height: 80vh;
+        flex-direction: column;
+        width: 100%;
+        padding-left: none;
+    }
+
+    .introduction {
+        justify-content: center;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .introduction h1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+        font-size: 1.8em;
+    }
+
+    .introduction p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .projects {
+        align-items: center;
+        width: 100%;
+    }
+
+    .projects ul {
+        width: 70%;
+    }
+
+    .skills-container {
+        height: 40vh;
+    }
+
+    .programming-skills,
+    .tools {
+        width: 90%;
+    }
+
+    .programming-skills h2,
+    .tools h2 {
+        font-size: 1em;
+    }
+
+    .programming-skills i {
+        font-size: 2em;
+    }
+
+    .tools img {
+        width: 35px;
+    }
+
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        background-color: dodgerblue;
+        color: whitesmoke;
+    }
+
+    .contact-details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-left: 2%;
+        width: 100%;
+    }
+
+    .contact-details div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        width: 100%;
+    }
+
+    .contact-details div h4 {
+        font-weight: 500;
+    }
+
+    .contact-details div h5 {
+        font-weight: 400;
+    }
+
+    .social-details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-details a {
+        margin: 5%;
+    }
+    .social-details a img{
+        width: 40px;
     }
 
 
