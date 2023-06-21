@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Muhammad Faseeh</title>
 </head>
+
 <body>
+    <!-- navigation bar -->
     <div class="navigation">
         <div class="name">
             <h1>Muhammad Faseeh</h1>
@@ -17,26 +20,77 @@
         <div class="nav-options">
             <ul>
                 <li><a href="#home_container">Home</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills_container">Skills</a></li>
+                <li><a href="#contact_section">Contact</a></li>
             </ul>
         </div>
     </div>
+    <!-- home section -->
     <div class="home-container" id="home_container">
-        <img src="profilepic.jpg" alt="My_pic" width="250px">
+        <img src="profilepic.jpg" alt="My_pic">
         <h1>HI! I am Muhammad Faseeh</h1>
         <h3>Aspiring Frontend Developer | Networking Enthusiast | SZABIST, Karachi</h3>
     </div>
-    <div class="skills-container">
-        <h1>My Skills</h1>
+    <!-- about section -->
+    <div class="about" id="about">
+        <div class="introduction">
+            <h1>Who am I?</h1>
+            <p>I am an Undergraduate student at SZABIST doing my bachelor's in
+                Computer Science. During my bachelors I have developed my interest in Web Development and Computer
+                Networking
+                and want to pursue my career in the respective fields.
+            </p>
+        </div>
+        <div class="projects">
+            <h1>My Projects</h1>
+            <ul>
+                <li><a href="https://muhammadfaseeh2002.github.io/Zabdesk-UI-Design-Project/" target="_blank">Zabdesk Student Portal 2.0</a></li>
+                <li><a href="https://github.com/MuhammadFASEEH2002/SZABIST-Network" target="_blank">SZABIST Network</a></li>
+                <li><a href="https://muhammadfaseeh2002.github.io/Unit-converter/" target="_blank">Unit Convertor</a></li>
+                <li><a href="https://muhammadfaseeh2002.github.io/GPA-Calculator/" target="_blank">GPA-Calculator</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- skills section -->
+    <div class="skills-container" id="skills_container">
         <div class="programming-skills">
-            <h3>Programming Languages:</h3>
-            <i class="fa-brands fa-js fa-beat fa-2x" style="color: #bff820;"></i>
-            <i class="fa-brands fa-python fa-beat fa-2x" style="color: #002057;"></i>
+            <h2>Programming Languages:</h2>
+            <i class="fa-brands fa-js  fa-3x" style="color: #bff820;"></i>
+            <i class="fa-brands fa-python  fa-3x" style="color: #002057;"></i>
+            <i class="fa-brands fa-java  fa-3x" style="color: #bd001c;"></i>
+        </div>
+        <div class="tools">
+            <h2>Tools:</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="" width="50px">
+            <img src="cisco_logo_icon_169399.png" alt="" width="70px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" alt="" width="50px">
         </div>
 
     </div>
-    
+    <!-- contact section -->
+    <div class="contact-section" id="contact_section">
+        <div class="contact-details" >
+            <div>
+                <h4>Address:</h4>
+                <h5>2H, 9/1, Flat 301, Al-Mustafa Residency, Nazimabad#2, Karachi, Pakistan </h5>
+            </div>
+            <div>
+                <h4>Email:</h4>
+                <h5>cfaseeh@gmail.com</h5>
+            </div>
+            <div>
+                <h4>Contact Number:</h4>
+                <h5>0331-3672289 / 0320--2253676</h5>
+            </div>
+
+        </div>
+        <div class="social-details">
+            <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" alt="" width="50px"></a>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
